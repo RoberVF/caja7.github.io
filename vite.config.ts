@@ -14,7 +14,6 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/caja7/',
   build: {
     outDir: 'build',
   },

@@ -7,6 +7,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="*" element={<div>Ruta no encontrada</div>} />
     </Routes>
   );
 }
