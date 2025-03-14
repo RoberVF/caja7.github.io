@@ -9,14 +9,14 @@ const expenseData = [
   { name: "Servicios", value: 120, color: "#ff8042" },
 ]
 
-const monthlyExpenses = [
-  { month: "Ene", amount: 1650 },
-  { month: "Feb", amount: 1720 },
-  { month: "Mar", amount: 1580 },
-  { month: "Abr", amount: 1720 },
-  { month: "May", amount: 1820 },
-  { month: "Jun", amount: 1720 },
-]
+// const monthlyExpenses = [
+//   { month: "Ene", amount: 1650 },
+//   { month: "Feb", amount: 1720 },
+//   { month: "Mar", amount: 1580 },
+//   { month: "Abr", amount: 1720 },
+//   { month: "May", amount: 1820 },
+//   { month: "Jun", amount: 1720 },
+// ]
 
 export function Expenses() {
   return (
