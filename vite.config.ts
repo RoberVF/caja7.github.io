@@ -14,8 +14,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/caja7.github.io',
+  base: '/caja7/',
   build: {
-    outDir: 'docs',
+    outDir: 'build',
   },
 })
