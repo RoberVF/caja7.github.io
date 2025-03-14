@@ -15,4 +15,7 @@ export default defineConfig({
     },
   },
   base: '/caja7.github.io',
+  build: {
+    outDir: 'docs',
+  },
 })
